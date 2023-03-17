@@ -1,0 +1,32 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+:root {
+  /* Colors */
+  --color-eerie-black: #222222;
+  --color-onyx: #34363e;
+  --color-chill-red: #ef271b;
+  --color-kelly-green: #5fad41;
+  --color-coreal: #ff8360;
+  --color-celestial-blue: #0094d3;
+
+  font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    color: #f6f6f6;
+    background-color: var(--color-onyx);
+  }
+}

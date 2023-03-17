@@ -1,0 +1,24 @@
+.project-tile {
+  background-color: transparent;
+  height: 60px;
+  font-size: 20px;
+  text-overflow: ellipsis;
+  display: flex;
+  padding: 0px 25px;
+  justify-content: flex-start;
+  align-items: center;
+  cursor: pointer;
+}
+
+.project-tile:hover {
+  background-color: var(--color-onyx);
+  transition: 0.3s;
+}
+
+.active {
+  box-sizing: border-box;
+  color: var(--color-celestial-blue);
+  background-color: var(--color-onyx);
+  font-weight: bold;
+  border-bottom: 4px solid var(--color-celestial-blue);
+}
